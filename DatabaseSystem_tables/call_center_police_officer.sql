@@ -42,6 +42,24 @@ CREATE TABLE `police_officer` (
 LOCK TABLES `police_officer` WRITE;
 /*!40000 ALTER TABLE `police_officer` DISABLE KEYS */;
 /*!40000 ALTER TABLE `police_officer` ENABLE KEYS */;
+INSERT INTO `police_officer` (`badge_Number`, `firstName`, `lastName`, `phone`, `address`, `case_number`) 
+VALUES
+(201, 'Michael', 'Johnson', '555-123-4567', '123 Main St', 1),
+(202, 'Jessica', 'Martinez', '555-234-5678', '456 Elm St', 2),
+(203, 'David', 'Brown', '555-345-6789', '789 Oak St', 3),
+(204, 'Sarah', 'Jones', '555-456-7890', '321 Pine St', 4),
+(205, 'Daniel', 'Garcia', '555-567-8901', '654 Maple St', 5),
+(206, 'Amanda', 'Wilson', '555-678-9012', '987 Cedar St', 6),
+(207, 'James', 'Taylor', '555-789-0123', '147 Birch St', 7),
+(208, 'Melissa', 'Anderson', '555-890-1234', '258 Walnut St', 8),
+(209, 'Ryan', 'Thomas', '555-901-2345', '369 Cherry St', 9),
+(210, 'John', 'Doe', '555-012-3456', '951 Sycamore St', 10),
+(211, 'Jane', 'Smith', '555-123-4567', '753 Cedar St', 11),
+(212, 'Matthew', 'Hernandez', '555-234-5678', '852 Elm St', 12),
+(213, 'Emily', 'Williams', '555-345-6789', '753 Oak St', 13),
+(214, 'Ashley', 'Lopez', '555-456-7890', '951 Pine St', 14),
+(215, 'Christopher', 'Gonzalez', '555-567-8901', '258 Maple St', 15);
+
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
