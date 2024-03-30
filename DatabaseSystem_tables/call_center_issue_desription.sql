@@ -37,6 +37,24 @@ CREATE TABLE `issue_desription` (
 LOCK TABLES `issue_desription` WRITE;
 /*!40000 ALTER TABLE `issue_desription` DISABLE KEYS */;
 /*!40000 ALTER TABLE `issue_desription` ENABLE KEYS */;
+INSERT INTO `issue_desription` (`issue_id`, `issue_desription`) 
+VALUES
+(1, 'Fire outbreak in residential building.'),
+(2, 'Car accident with multiple casualties.'),
+(3, 'Burglary reported at local store.'),
+(4, 'Medical emergency - heart attack.'),
+(5, 'Natural gas leak detected in neighborhood.'),
+(6, 'Traffic collision on the highway.'),
+(7, 'Arson suspected in abandoned warehouse fire.'),
+(8, 'Domestic dispute resulting in violence.'),
+(9, 'Suspected drug trafficking operation.'),
+(10, 'Missing person reported by family.'),
+(11, 'Electrical fire in commercial building.'),
+(12, 'Assault and battery incident at nightclub.'),
+(13, 'Vehicular collision with pedestrian.'),
+(14, 'Robbery in progress at bank.'),
+(15, 'Suspicious package found in public area.');
+
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
