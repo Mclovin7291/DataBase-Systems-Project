@@ -38,6 +38,24 @@ CREATE TABLE `police_station` (
 LOCK TABLES `police_station` WRITE;
 /*!40000 ALTER TABLE `police_station` DISABLE KEYS */;
 /*!40000 ALTER TABLE `police_station` ENABLE KEYS */;
+INSERT INTO `police_station` (`pStation_ID`, `badgeNumber`) 
+VALUES
+(1, 201),
+(2, 202),
+(3, 203),
+(4, 204),
+(5, 205),
+(6, 206),
+(7, 207),
+(8, 208),
+(9, 209),
+(10, 210),
+(11, 211),
+(12, 212),
+(13, 213),
+(14, 214),
+(15, 215);
+
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
