@@ -41,6 +41,23 @@ CREATE TABLE `civilians` (
 LOCK TABLES `civilians` WRITE;
 /*!40000 ALTER TABLE `civilians` DISABLE KEYS */;
 /*!40000 ALTER TABLE `civilians` ENABLE KEYS */;
+INSERT INTO `civilians` (`civilian_number`, `first_name`, `last_name`, `address`, `zipcode`, `phone`) 
+VALUES
+(1001, 'John', 'Doe', '123 Main St', 12345, '555-123-4567'),
+(1002, 'Jane', 'Smith', '456 Elm St', 23456, '555-234-5678'),
+(1003, 'Michael', 'Johnson', '789 Oak St', 34567, '555-345-6789'),
+(1004, 'Emily', 'Williams', '321 Pine St', 45678, '555-456-7890'),
+(1005, 'David', 'Brown', '654 Maple St', 56789, '555-567-8901'),
+(1006, 'Sarah', 'Jones', '987 Cedar St', 67890, '555-678-9012'),
+(1007, 'Daniel', 'Garcia', '147 Birch St', 78901, '555-789-0123'),
+(1008, 'Jessica', 'Martinez', '258 Walnut St', 89012, '555-890-1234'),
+(1009, 'Matthew', 'Hernandez', '369 Cherry St', 90123, '555-901-2345'),
+(1010, 'Ashley', 'Lopez', '951 Sycamore St', 01234, '555-012-3456'),
+(1011, 'Christopher', 'Gonzalez', '753 Cedar St', 12340, '555-123-4567'),
+(1012, 'Amanda', 'Wilson', '852 Elm St', 23401, '555-234-5678'),
+(1013, 'James', 'Taylor', '753 Oak St', 34012, '555-345-6789'),
+(1014, 'Melissa', 'Anderson', '951 Pine St', 40123, '555-456-7890'),
+(1015, 'Ryan', 'Thomas', '258 Maple St', 01234, '555-567-8901');
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
