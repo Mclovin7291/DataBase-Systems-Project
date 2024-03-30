@@ -39,6 +39,24 @@ CREATE TABLE `firefighter` (
 LOCK TABLES `firefighter` WRITE;
 /*!40000 ALTER TABLE `firefighter` DISABLE KEYS */;
 /*!40000 ALTER TABLE `firefighter` ENABLE KEYS */;
+INSERT INTO `firefighter` (`badge_Number`, `firstName`, `lastName`, `phone`, `address`) 
+VALUES
+(101, 'John', 'Doe', '555-123-4567', '123 Main St'),
+(102, 'Jane', 'Smith', '555-234-5678', '456 Elm St'),
+(103, 'Michael', 'Johnson', '555-345-6789', '789 Oak St'),
+(104, 'Emily', 'Williams', '555-456-7890', '321 Pine St'),
+(105, 'David', 'Brown', '555-567-8901', '654 Maple St'),
+(106, 'Sarah', 'Jones', '555-678-9012', '987 Cedar St'),
+(107, 'Daniel', 'Garcia', '555-789-0123', '147 Birch St'),
+(108, 'Jessica', 'Martinez', '555-890-1234', '258 Walnut St'),
+(109, 'Matthew', 'Hernandez', '555-901-2345', '369 Cherry St'),
+(110, 'Ashley', 'Lopez', '555-012-3456', '951 Sycamore St'),
+(111, 'Christopher', 'Gonzalez', '555-123-4567', '753 Cedar St'),
+(112, 'Amanda', 'Wilson', '555-234-5678', '852 Elm St'),
+(113, 'James', 'Taylor', '555-345-6789', '753 Oak St'),
+(114, 'Melissa', 'Anderson', '555-456-7890', '951 Pine St'),
+(115, 'Ryan', 'Thomas', '555-567-8901', '258 Maple St');
+
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
