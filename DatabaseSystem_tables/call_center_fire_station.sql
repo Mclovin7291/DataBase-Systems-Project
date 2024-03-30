@@ -41,6 +41,24 @@ CREATE TABLE `fire_station` (
 LOCK TABLES `fire_station` WRITE;
 /*!40000 ALTER TABLE `fire_station` DISABLE KEYS */;
 /*!40000 ALTER TABLE `fire_station` ENABLE KEYS */;
+INSERT INTO `fire_station` (`fStation_ID`, `badge_Number`, `case_number`) 
+VALUES
+(1, 101, 1),
+(2, 102, 2),
+(3, 103, 3),
+(4, 104, 4),
+(5, 105, 5),
+(6, 106, 6),
+(7, 107, 7),
+(8, 108, 8),
+(9, 109, 9),
+(10, 110, 10),
+(11, 111, 11),
+(12, 112, 12),
+(13, 113, 13),
+(14, 114, 14),
+(15, 115, 15);
+
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
 
