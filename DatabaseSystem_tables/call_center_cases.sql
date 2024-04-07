@@ -18,10 +18,10 @@
 --
 -- Table structure for table `cases`
 --
-
 DROP TABLE IF EXISTS `cases`;
 /*!40101 SET @saved_cs_client     = @@character_set_client */;
 /*!50503 SET character_set_client = utf8mb4 */;
+
 CREATE TABLE `cases` (
   `Case_Number` int unsigned NOT NULL AUTO_INCREMENT,
   `Issue_ID` int unsigned DEFAULT NULL,
@@ -32,9 +32,10 @@ CREATE TABLE `cases` (
   `F_StationID` int unsigned DEFAULT NULL,
   PRIMARY KEY (`Case_Number`),
   UNIQUE KEY `Case_Number` (`Case_Number`),
-  UNIQUE KEY `civilian_number` (`civilian_number`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
-/*!40101 SET character_set_client = @saved_cs_client */;
+  UNIQUE KEY `civilian_number` (`civilian_number`),
+  FOREIGN Key (Issue_ID) REFERENCES issue_description(issue_id),
+  FOREIGN KEY (civilian_number) REFERENCES civilians(civilian_number)
+);
 
 --
 -- Dumping data for table `cases`
